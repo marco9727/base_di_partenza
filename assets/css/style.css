@@ -1,0 +1,167 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  min-height: 100vh;
+  width: auto;
+}
+
+header {
+  background-color: #ffc017;
+}
+
+.letter-m {
+  right: 0;
+  width: 580px;
+  position: absolute;
+}
+
+nav {
+  display: flex;
+  height: 75px;
+  margin: 0 64px;
+  justify-content: space-between;
+  width: auto;
+  max-width: 1200px;
+  align-items: center;
+}
+
+/* header div:first-child {
+  border-bottom: 1px solid black;
+} */
+
+.bordo {
+  border-bottom: 1px solid rgb(0, 0, 0);
+  /* position: fixed; */
+  width: 100%;
+}
+
+.list-button {
+  display: flex;
+  gap: 14px;
+}
+
+.div-list {
+  display: flex;
+  gap: 14px;
+}
+
+li {
+  list-style-type: none;
+}
+
+div button {
+  margin-bottom: 3px;
+}
+
+.titolo-m {
+  display: flex;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  height: 100%;
+  padding-block: 92px;
+  margin: 0 64px;
+}
+
+.cont-title-m {
+  border-bottom: 1px solid black;
+  overflow: hidden;
+  position: relative;
+}
+
+.title h1 {
+  font-family: sans-serif;
+  /* font-weight: bold; */
+  font-size: 106px;
+  line-height: 95px;
+  letter-spacing: -0.05em;
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+
+.title p {
+  font-size: 24px;
+  font-family: sans-serif;
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+
+.div-button2 {
+  padding-block: 14px;
+}
+
+/* .conteiner-trend {
+  display: flex;
+  justify-content: center;
+} */
+
+.conteiner-trend {
+  margin: 0 64px;
+  padding-top: 40px;
+  padding-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+.trend {
+  padding-inline: 16px;
+  margin-right: 13px;
+}
+
+.title-trend {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  margin-left: 10px;
+}
+
+.trend-section {
+  display: flex;
+  gap: 10px;
+}
+
+.icon-trend {
+  display: flex;
+  display: flex;
+  align-items: center;
+}
+
+.icon-trend img {
+  height: 15px;
+  border-radius: 50px;
+}
+
+.ultimate-trend {
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px;
+}
+
+.all-trend {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 7px;
+}
+
+.conteiner-trend h2,
+h4 {
+  font-weight: 400;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.text span img {
+  height: 20px;
+}
