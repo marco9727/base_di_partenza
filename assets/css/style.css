@@ -1,167 +1,169 @@
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
-body {
+/* body {
   margin: 0;
   padding: 0;
   position: relative;
   min-height: 100vh;
   width: auto;
-}
-
-header {
-  background-color: #ffc017;
-}
-
-.letter-m {
-  right: 0;
-  width: 580px;
-  position: absolute;
-}
+} */
 
 nav {
   display: flex;
-  height: 75px;
-  margin: 0 64px;
+  background-color: #ffc017;
+  padding-inline: 150px;
+  /* margin: 0 64px; */
   justify-content: space-between;
-  width: auto;
-  max-width: 1200px;
+  padding-block: 6px;
+  border-bottom: 1px solid #201d15;
   align-items: center;
 }
 
-/* header div:first-child {
-  border-bottom: 1px solid black;
-} */
-
-.bordo {
-  border-bottom: 1px solid rgb(0, 0, 0);
-  /* position: fixed; */
-  width: 100%;
+nav img {
+  width: 150px;
+  padding-block: 15px;
+  cursor: pointer;
 }
 
-.list-button {
+.menu {
   display: flex;
-  gap: 14px;
-}
-
-.div-list {
-  display: flex;
-  gap: 14px;
+  align-items: center;
+  font-family: "Spectral", serif;
 }
 
 li {
   list-style-type: none;
+  font-weight: 400;
+  margin-inline: 10px;
+  cursor: pointer;
 }
 
-div button {
-  margin-bottom: 3px;
+nav div button {
+  background-color: black;
+  color: white;
+  padding-inline: 10px;
+  margin-inline: 10px;
+  font-family: "Spectral", serif;
+  cursor: pointer;
 }
-
-.titolo-m {
+.section1 {
   display: flex;
 }
 
-.title {
-  display: flex;
-  flex-direction: column;
-  width: 550px;
-  height: 100%;
-  padding-block: 92px;
-  margin: 0 64px;
+.title-header {
+  background-color: #ffc017;
+  border-bottom: 1px solid #3d3727;
+  padding-inline-start: 150px;
+  padding-block: 50px;
+  width: 50%;
 }
 
-.cont-title-m {
-  border-bottom: 1px solid black;
-  overflow: hidden;
+.svg {
+  width: 50%;
+  background-color: #ffc017;
+  border-bottom: 1px solid #3d3727;
   position: relative;
 }
-
-.title h1 {
-  font-family: sans-serif;
-  /* font-weight: bold; */
-  font-size: 106px;
-  line-height: 95px;
-  letter-spacing: -0.05em;
+.section1 h2 {
+  font-size: 3.8rem;
+  font-family: "Spectral", serif;
   font-weight: 400;
-  margin-bottom: 35px;
+  color: #000000;
+  letter-spacing: -2px;
+  padding-block-end: 15px;
 }
 
-.title p {
-  font-size: 24px;
-  font-family: sans-serif;
-  font-weight: 400;
-  margin-bottom: 35px;
+.section1 p {
+  color: #242424;
+  font-family: "Spectral", serif;
+  padding-block-end: 15px;
+  font-size: 1.1rem;
 }
 
-.div-button2 {
-  padding-block: 14px;
+.section1 button {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  font-family: "Spectral", serif;
+  padding-inline: 30px;
+  padding-block: 5px;
+  margin-block-start: 6px;
+  cursor: pointer;
 }
-
-/* .conteiner-trend {
-  display: flex;
-  justify-content: center;
-} */
 
 .conteiner-trend {
-  margin: 0 64px;
-  padding-top: 40px;
-  padding-bottom: 18px;
-  display: flex;
-  flex-direction: column;
+  padding-inline-start: 150px;
+  font-family: "Roboto", sans-serif;
 }
 
 .trend {
-  padding-inline: 16px;
-  margin-right: 13px;
-}
-
-.title-trend {
   display: flex;
   align-items: center;
-  margin-bottom: 16px;
-  margin-left: 10px;
+  margin-block-start: 30px;
+  margin-block-end: 12px;
 }
 
-.trend-section {
-  display: flex;
-  gap: 10px;
-}
-
-.icon-trend {
-  display: flex;
-  display: flex;
-  align-items: center;
-}
-
-.icon-trend img {
-  height: 15px;
-  border-radius: 50px;
-}
-
-.ultimate-trend {
-  display: flex;
-  flex-direction: column;
-
-  gap: 10px;
+.trend h2 {
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-inline-start: 10px;
 }
 
 .all-trend {
   display: flex;
   flex-wrap: wrap;
-
-  gap: 7px;
+  align-items: baseline;
 }
 
-.conteiner-trend h2,
-h4 {
+.trend-card {
+  display: flex;
+  flex-basis: 30%;
+  margin-block-end: 35px;
+  padding-inline-end: 30px;
+}
+
+.trend-card h4 {
+  font-size: 1.4rem;
+  color: #cccccc;
+  font-weight: bold;
+  padding-inline-end: 15px;
+}
+.trend-post {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-user {
+  display: flex;
+  align-items: center;
+}
+
+.post-user img {
+  border-radius: 50%;
+  height: 15px;
+}
+
+.post-user span {
+  font-size: 0.8rem;
   font-weight: 400;
-  font-family: sans-serif;
-  font-size: 15px;
+  padding-inline-start: 10px;
 }
 
-.text span img {
-  height: 20px;
+.trend-post h3 {
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-block: 8px;
+}
+
+.trend-post p {
+  font-size: 0.7rem;
+  color: #918f8f;
+}
+
+.trend-post p img {
+  vertical-align: middle;
 }
