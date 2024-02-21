@@ -167,3 +167,83 @@ nav div button {
 .trend-post p img {
   vertical-align: middle;
 }
+
+.posts-content {
+  display: flex;
+  flex-direction: column;
+  padding-inline-start: 150px;
+  padding-block-start: 50px;
+  font-family: "Roboto", sans-serif;
+}
+
+.post-complete {
+  display: flex;
+  margin-block-end: 30px;
+}
+
+.post-user {
+  display: flex;
+  align-items: center;
+}
+
+.post-user img {
+  border-radius: 50%;
+  width: 15px;
+}
+
+.post-user span {
+  font-size: 0.6rem;
+  padding-inline-start: 10px;
+  font-weight: bold;
+}
+
+.posts-content h2 {
+  font-size: 1rem;
+  font-weight: bold;
+  padding-block: 8px;
+  width: 50%;
+}
+
+.posts-content h3 {
+  color: #787575;
+  padding-block-end: 15px;
+  font-size: 0.7rem;
+}
+
+.post-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-footer-text {
+  display: flex;
+  align-items: center;
+}
+
+.post-footer-text p {
+  font-size: 0.7rem;
+  color: #787575;
+}
+
+.post-footer-text button {
+  font-size: 0.8rem;
+  color: #787575;
+  border: none;
+  border-radius: 50px;
+  margin-inline-start: 8px;
+}
+
+.post-footer-text img {
+  margin-inline-start: 8px;
+}
+
+.post-img img {
+  width: 150px;
+  margin-inline-start: 20px;
+  padding-inline-start: 0;
+}
+
+.footer-content {
+  display: flex;
+  border-top: 1px solid lightgray;
+}
